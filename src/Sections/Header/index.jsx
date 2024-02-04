@@ -70,7 +70,7 @@ export const Header = () => {
               </p>
               <div className="flex gap-2 items-center cursor-pointer w-fit">
                 <p className="underline">Shop our New Collection</p>
-                <img src="/Images/arrow_long.png" className="w-7 h-full" />
+                <img src="./Images/arrow_long.png" className="w-7 h-full" />
               </div>
             </div>
 

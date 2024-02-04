@@ -81,7 +81,7 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
       <div className="relative">
         <div className="cursor-pointer relative z-20 flex items-center justify-center">
           <img
-            src="/Images/icon_element.png"
+            src="./Images/icon_element.png"
             className="w-5 h-5 relative z-20"
           />
           <div className="bg-white rounded-full w-5 h-5 absolute animate-pings el_point1"></div>
@@ -95,13 +95,13 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
           >
             {RightDir && (
               <img
-                src="/Images/arrow_pointer.png"
+                src="./Images/arrow_pointer.png"
                 className={`absolute left-0 w-[200px] object-cover -scale-x-100`}
               />
             )}
             <div className={`flex gap-3 ${RightDir && "ml-[220px]"}`}>
               <img
-                src="/Images/icon_shopping_bag.png"
+                src="./Images/icon_shopping_bag.png"
                 className="w-[42px] h-[42px] mt-6 el_bag"
               />
               <div className="w-full h-full mt-5">
@@ -109,13 +109,13 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
                 <p className="font-medium">{price}</p>
                 <div className="mt-2 flex items-center gap-2">
                   <p className="font-medium underline cursor-pointer">View</p>
-                  <img src="/Images/arrow_short.png" className="w-4 h-auto" />
+                  <img src="./Images/arrow_short.png" className="w-4 h-auto" />
                 </div>
               </div>
             </div>
             {!RightDir && (
               <img
-                src="/Images/arrow_pointer.png"
+                src="./Images/arrow_pointer.png"
                 className={`absolute right-0 w-[200px] object-cover`}
               />
             )}
