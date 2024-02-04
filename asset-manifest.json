@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Myra-site/static/css/main.3c87e10b.css",
+    "main.js": "/Myra-site/static/js/main.5217e369.js",
+    "index.html": "/Myra-site/index.html",
+    "main.3c87e10b.css.map": "/Myra-site/static/css/main.3c87e10b.css.map",
+    "main.5217e369.js.map": "/Myra-site/static/js/main.5217e369.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c87e10b.css",
+    "static/js/main.5217e369.js"
+  ]
+}
