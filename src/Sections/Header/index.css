@@ -1,0 +1,5 @@
+.parentDiv {
+  background: linear-gradient(20deg, #7b527488, #b78caa88, #cc9fbe88),
+    linear-gradient(340deg, #7b527488, #b78caa88, #cc9fbe88),
+    linear-gradient(0deg, #7b527488, #b78caa88, #cc9fbe88);
+}
