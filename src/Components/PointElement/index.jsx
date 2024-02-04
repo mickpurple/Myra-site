@@ -77,8 +77,8 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
   }, [hover]);
 
   return (
-    <div className={`absolute z-10 ${classes} el_points`} ref={pointRef}>
-      <div className="relative">
+    <div className={`absolute z-20 ${classes} el_points`} ref={pointRef}>
+      <div className="relative z-20">
         <div className="cursor-pointer relative z-20 flex items-center justify-center">
           <img
             src="./Images/icon_element.png"

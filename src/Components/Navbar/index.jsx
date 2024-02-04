@@ -12,7 +12,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div className="absolute z-10 top-0 w-full nav-parent">
+    <div className="absolute z-50 top-0 w-full nav-parent">
       <div className="relative h-[100px] text-white mx-20 mt-8 bg-red-100s flex flex-col justify-between">
         <div className="grid grid-cols-3">
           <div className="flex gap-8">

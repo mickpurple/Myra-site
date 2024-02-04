@@ -37,10 +37,10 @@ export const Header = () => {
       <div className="parentDiv relative h-screen overflow-hidden">
         <div className="relative h-full w-full flex items-center justify-center">
           {/* image and its elements */}
-          <div className="absolute w-full h-full flex items-center justify-center header-images">
+          <div className="absolute w-full h-full flex items-center justify-center">
             <img
               src="./Images/model_1.png"
-              className="w-auto h-full absolute object-cover pointer-events-none"
+              className="w-auto h-full absolute object-cover pointer-events-none header-images"
             />
 
             <PointElement
@@ -57,7 +57,7 @@ export const Header = () => {
           </div>
 
           {/* persistent elements of header */}
-          <div className="relative w-full h-full mx-20">
+          <div className="relative w-full h-full mx-20 z-10">
             <p className="text-white text-[62px] leading-[74.4px] absolute top-52 header-text">
               Every moment deserves
               <br />a little elegance.
