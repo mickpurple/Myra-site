@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Myra-site/static/css/main.270bfb9b.css",
-    "main.js": "/Myra-site/static/js/main.f7c0b7cb.js",
+    "main.css": "/Myra-site/static/css/main.18f3bc52.css",
+    "main.js": "/Myra-site/static/js/main.040a3617.js",
+    "static/media/model_2.png": "/Myra-site/static/media/model_2.edd361f8f289eab71dd2.png",
+    "static/media/model_1.png": "/Myra-site/static/media/model_1.2ac74923a155030b669a.png",
     "index.html": "/Myra-site/index.html",
-    "main.270bfb9b.css.map": "/Myra-site/static/css/main.270bfb9b.css.map",
-    "main.f7c0b7cb.js.map": "/Myra-site/static/js/main.f7c0b7cb.js.map"
+    "main.18f3bc52.css.map": "/Myra-site/static/css/main.18f3bc52.css.map",
+    "main.040a3617.js.map": "/Myra-site/static/js/main.040a3617.js.map"
   },
   "entrypoints": [
-    "static/css/main.270bfb9b.css",
-    "static/js/main.f7c0b7cb.js"
+    "static/css/main.18f3bc52.css",
+    "static/js/main.040a3617.js"
   ]
 }
