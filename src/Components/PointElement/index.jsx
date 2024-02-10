@@ -1,6 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
+import icon_element from "../../../src/Images/icon_element.png";
+import arrow_pointer from "../../../src/Images/arrow_pointer.png";
+import icon_shopping_bag from "../../../src/Images/icon_shopping_bag.png";
+import arrow_short from "../../../src/Images/arrow_short.png";
+
 export const PointElement = ({ classes, name, price, RightDir = false }) => {
   const pointRef = useRef();
   const [hover, setHover] = useState(false);
@@ -80,10 +85,7 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
     <div className={`absolute z-20 ${classes} el_points`} ref={pointRef}>
       <div className="relative z-20">
         <div className="cursor-pointer relative z-20 flex items-center justify-center">
-          <img
-            src="./Images/icon_element.png"
-            className="w-5 h-5 relative z-20"
-          />
+          <img src={icon_element} className="w-5 h-5 relative z-20" />
           <div className="bg-white rounded-full w-5 h-5 absolute animate-pings el_point1"></div>
           <div className="bg-white rounded-full w-5 h-5 absolute animate-pings el_point2"></div>
         </div>
@@ -95,13 +97,13 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
           >
             {RightDir && (
               <img
-                src="./Images/arrow_pointer.png"
+                src={arrow_pointer}
                 className={`absolute left-0 w-[200px] object-cover -scale-x-100`}
               />
             )}
             <div className={`flex gap-3 ${RightDir && "ml-[220px]"}`}>
               <img
-                src="./Images/icon_shopping_bag.png"
+                src={icon_shopping_bag}
                 className="w-[42px] h-[42px] mt-6 el_bag"
               />
               <div className="w-full h-full mt-5">
@@ -109,13 +111,13 @@ export const PointElement = ({ classes, name, price, RightDir = false }) => {
                 <p className="font-medium">{price}</p>
                 <div className="mt-2 flex items-center gap-2">
                   <p className="font-medium underline cursor-pointer">View</p>
-                  <img src="./Images/arrow_short.png" className="w-4 h-auto" />
+                  <img src={arrow_short} className="w-4 h-auto" />
                 </div>
               </div>
             </div>
             {!RightDir && (
               <img
-                src="./Images/arrow_pointer.png"
+                src={arrow_pointer}
                 className={`absolute right-0 w-[200px] object-cover`}
               />
             )}

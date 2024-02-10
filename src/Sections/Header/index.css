@@ -1,5 +1,24 @@
 .parentDiv {
-  background: linear-gradient(20deg, #7b527488, #b78caa88, #cc9fbe88),
-    linear-gradient(340deg, #7b527488, #b78caa88, #cc9fbe88),
-    linear-gradient(0deg, #7b527488, #b78caa88, #cc9fbe88);
+  background: linear-gradient(20deg, #7b7b7b44, #aeaeae44, #cdcdcd44),
+    linear-gradient(340deg, #6a6a6a88, #b2b2b288, #cccccc88),
+    linear-gradient(0deg, #70707044, #bcbcbc44, #cecece44);
+
+  background-blend-mode: multiply;
+}
+
+.hyperText:hover > img {
+  /* position: absolute; */
+  animation: "hyperTextAnim" 1s infinite ease-in-out;
+}
+
+@keyframes hyperTextAnim {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
